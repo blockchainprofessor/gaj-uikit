@@ -2806,21 +2806,21 @@ var ResetCSS = createGlobalStyle(templateObject_1$K || (templateObject_1$K = __m
 var templateObject_1$K;
 
 var baseColors = {
-    failure: "#404040",
-    primary: "#404040",
-    primaryBright: "#404040",
-    primaryDark: "#404040",
-    secondary: "#404040",
-    success: "#404040",
-    warning: "#404040",
+    failure: "#ff738e",
+    primary: "#FFB406",
+    primaryBright: "#FFB406",
+    primaryDark: "#FFB406",
+    secondary: "#FFB406",
+    success: "#33CA7F",
+    warning: "#fea192",
 };
 var brandColors = {
-    binance: "#404040",
+    binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#404040", textDisabled: "#BDC2C4", textSubtle: "#404040", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#f2f2f2", backgroundDisabled: "#F2F2F2", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeeee", tertiary: "#EFF4F5", text: "#5f7888", textDisabled: "#BDC2C4", textSubtle: "#B543FF", borderColor: "#F2F2F2", card: "#FFFFFF", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #F2F2F2 0%, #F2F2F2 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#FFFFFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#FFFFFF", tertiary: "#353547", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#100C18", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#A28BD4", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
