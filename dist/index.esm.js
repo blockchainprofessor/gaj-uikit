@@ -2806,22 +2806,22 @@ var ResetCSS = createGlobalStyle(templateObject_1$K || (templateObject_1$K = __m
 var templateObject_1$K;
 
 var baseColors = {
-    failure: "#ED4B9E",
-    primary: "#ffcf00",
-    primaryBright: "#ffcf00",
-    primaryDark: "#ffcf00",
-    secondary: "#ffcf00",
-    success: "#FFFFFF",
-    warning: "#FFB237",
+    failure: "#F72B50",
+    primary: "#FF720D",
+    primaryBright: "#e66000",
+    primaryDark: "#d95b00",
+    secondary: "#7645D9",
+    success: "#68CF29",
+    warning: "#FFAB2D",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#383838", textDisabled: "#BDC2C4", textSubtle: "#232323", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputBorder: "#cccccc", tertiary: "#EFF4F5", text: "#FFFFFF", textDisabled: "#BDC2C4", textSubtle: "#FF720D", borderColor: "#E9EAEB", card: "#0E162A", gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
 } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#ffcf00", background: "#353231", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#c1af60", primaryDark: "#0098A1", tertiary: "#424242", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#FFFFFF", card: "#232323", gradients: {
-    bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#FF720D", background: "#0d3842", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#0a0e17", input: "#483f3b", inputBorder: "#cccccc", primaryDark: "#d95b00", tertiary: "#2d2f37", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FF720D", borderColor: "#524B63", card: "#0E162A", gradients: {
+    bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
 } });
 
 var light = {
