@@ -2215,22 +2215,22 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/polygaj",
+                href: "https://t.me/supercubfinance",
             },
-            {
-                label: "Spanish",
-                href: "https://t.me/polygajspanish",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/polygajANN",
-            },
+            // {
+            //     label: "Spanish",
+            //     href: "https://t.me/polygajspanish",
+            // },
+            // {
+            //     label: "Announcements",
+            //     href: "https://t.me/polygajANN",
+            // },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/polygaj",
+        href: "https://twitter.com/SupercubFinance",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2579,7 +2579,7 @@ var AccountModal = function (_a) {
     return (React.createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
         React.createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React.createElement(Flex, { mb: "32px" },
-            React.createElement(LinkExternal, { small: true, href: "https://explorer-mainnet.maticvigil.com/address/" + account, mr: "16px" }, "View on Matic Explorer"),
+            React.createElement(LinkExternal, { small: true, href: "https://ftmscan.com/address/" + account, mr: "16px" }, "View on Ftm Scan"),
             React.createElement(CopyToClipboard, { toCopy: account }, "Copy Address")),
         React.createElement(Flex, { justifyContent: "center" },
             React.createElement(Button, { size: "sm", variant: "secondary", onClick: function () {

@@ -2283,7 +2283,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/goosedefi",
+        href: "https://twitter.com/SupercubFinance",
     },
     {
         label: "Reddit",
